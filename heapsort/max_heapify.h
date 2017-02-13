@@ -1,1 +1,1 @@
-void maxHeapify(int *A, int i);
+void max_heapify(int *A, int i);
