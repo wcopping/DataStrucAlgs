@@ -3,9 +3,6 @@
 #include "heapsort.h"
 #include "max_heapify.h"
 
-inline int left(int i) { return i<<1; }
-inline int right(int i) { return (i<<1)+1; }
-inline int parent(int i) { return i>>1; }
 
 /**
    Sorts the given vector into a max heap data structure
@@ -17,8 +14,10 @@ inline int parent(int i) { return i>>1; }
 */
 void max_heapify(std::vector<int> &v, int i, int hs)
 {
-    int l = left(i);
-    int r = right(i);
+    // left child index in max heap
+    int l = i*2;
+    // left child index in max heap
+    int r = (i*2)+1;
     int largest;
     int tmp;
 
