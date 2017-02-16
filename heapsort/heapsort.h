@@ -1,1 +1,1 @@
-void heapsort(std::vector<int> &v);
+void heapsort(std::vector<int> &v, int length);

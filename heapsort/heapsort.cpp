@@ -1,6 +1,7 @@
 #include <vector>
 #include "max_heapify.h"
 #include "build_max_heap.h"
+#include "heapsort.h"
 
 /**
  * When passed-by-reference a vector of type int, heapsort sorts the vector
