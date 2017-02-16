@@ -1,1 +1,1 @@
-void max_heapify(int *A, int i);
+void max_heapify(std::vector<int> &v, int i, int heap_size);
