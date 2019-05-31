@@ -4,4 +4,4 @@ This is my project on data structures and algorithms written in C++ and Python. 
 ## Getting Started
 
 ## Author
-* **Wyatt Coppinger** -[GitHub](https://github.com/wcopping) - [LinkedIn](https://www.linkedin.com/in/wyatt-coppinger/)
+* **Wyatt Coppinger** - [GitHub](https://github.com/wcopping) - [LinkedIn](https://www.linkedin.com/in/wyatt-coppinger/)
