@@ -1,6 +1,6 @@
 #include <vector>
-#include "max_heapify.h"
-#include "build_max_heap.h"
+#include "max-heapify.h"
+#include "build-max-heap.h"
 #include "heapsort.h"
 
 /**

@@ -6,7 +6,7 @@
 int main()
 {
     std::ofstream ost;
-    ost.open("random_array.txt");
+    ost.open("random-array.txt");
     if (!ost) {
         std::cerr << "Failed to open output file.";
     }

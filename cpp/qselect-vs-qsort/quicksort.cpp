@@ -9,7 +9,7 @@
 int main()
 {
     std::ifstream ist;
-    ist.open("random_array.txt");
+    ist.open("random-array.txt");
     if (!ist) {
         std::cerr << "Failed to open the input file.";
     }

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "heapsort.h"
-#include "max_heapify.h"
+#include "max-heapify.h"
 
 
 /**

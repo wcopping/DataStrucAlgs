@@ -1,6 +1,6 @@
 #include <vector>
-#include "build_max_heap.h"
-#include "max_heapify.h"
+#include "build-max-heap.h"
+#include "max-heapify.h"
 
 void build_max_heap(std::vector<int> &v, int length)
 {
