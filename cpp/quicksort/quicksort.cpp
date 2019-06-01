@@ -35,7 +35,6 @@ void quicksort(std::vector<int> &v, int p, int r)
  * @return   The index at which the passed vector's partitions are separated at
  *           --Is used in quicksort to know where the left partition ends and
  *             where the right partition begins.
- *
 */
 int partition(std::vector<int> &v, int p, int r)
 {
@@ -59,9 +58,6 @@ int partition(std::vector<int> &v, int p, int r)
  * @param i  One of the values which is to be switched in place with another
  * @param j  The other of the values which is to be switched in place with
  * @return   Changes the vector which it is passed
- *
- * Is this bad since we're dealing with pass-by-reference of a vector?
- * Does it obfuscate the code????
 */ 
 void exchange(std::vector<int> &v, int i, int j)
 {
